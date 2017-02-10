@@ -4,24 +4,8 @@ head.ready("lodash.min.js", function () {
 });
 head.js("https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js");
 
-// Reveal.initialize({
-//   controls: true,
-//   progress: true,
-//   history: true,
-//   center: true,
-//
-//   transition: Reveal.getQueryHash().transition || 'slide', // none/fade/slide/convex/concave/zoom
-//
-//   // Optional reveal.js plugins
-//   dependencies: [
-//     //{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-//     //{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-//     //{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-//     { src: 'plugin/zoom-js/zoom.js', async: true },
-//     { src: 'plugin/notes/notes.js', async: true },
-//     { src: 'plugin/math/math.js', async: true }
-//   ]
-// });
+/* had to copy RevealMath init code here, as prez.js doesn't seem to support
+adding dependencies to Reveal.js when initializing it */
 
 /**
  * A plugin which enables rendering of math equations inside

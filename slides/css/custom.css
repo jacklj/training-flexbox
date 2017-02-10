@@ -1,9 +1,5 @@
 /* custom styles can go here */
 
-#chapter-foo p {
-	text-transform: uppercase;
-}
-
 .smallText p,
 .smallText li {
 	font-size: 0.7em;
