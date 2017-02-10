@@ -1,0 +1,45 @@
+<h2>Flexbox basics</h2>
+
+<style>
+  /* pretty */
+  .containerA {
+    border: 10px solid goldenrod !important;
+    margin: 0px !important;
+  }
+  .itemA {
+    color: white;
+    font-size: 35px !important;
+    line-height: 200px !important;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 20px !important;
+  }
+  .itemA1 { background: #1abc9c; }
+  .itemA2 { background: #3498db; }
+  .itemA3 { background: #9b59b6; }
+
+  .label {
+    margin: 0;
+    font-size: 35px !important;
+    text-align: left;
+  }
+
+  /* flex */
+  .containerA {
+    display: flex;
+    justify-content: center;
+  }
+</style>
+
+<div class="label">
+  flex container
+</div>
+<div class="containerA">
+  <div class="itemA itemA1">flex item 1</div>
+  <div class="itemA itemA2">flex item 2</div>
+  <div class="itemA itemA3">flex item 3</div>
+</div>
